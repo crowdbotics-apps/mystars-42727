@@ -55,7 +55,7 @@ const ZodiacSignsScreen = ({
 }) => {
   const renderZodiacSign = ({
     item
-  }) => <TouchableOpacity style={styles.zodiacSignContainer} onPress={() => navigation.navigate("SignDetails", {
+  }) => <TouchableOpacity style={styles.zodiacSignContainer} onPress={() => navigation.navigate("ScreenA13", {
     sign: item
   })}>
       <Image source={{
